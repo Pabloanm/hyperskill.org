@@ -131,7 +131,7 @@ Functions:
 Implement the flowchart with two functions. Please, mind the recommendations below:
 
 * Don't use the built-in functions to calculate from a string;
-* Notice that the function is_one_digit() is supposed to check whether it has an integer value in the mathematical sense, e.g. 3.0 is an integer, 3.1 is a non-integer number. Thus, do NOT check the type of variable, but the number itself. You can use a special built-in method .is_integer() on a float variable to check if a number is an integer.
+* Notice that the function `is_one_digit()` is supposed to check whether it has an integer value in the mathematical sense, e.g. 3.0 is an integer, 3.1 is a non-integer number. Thus, do NOT check the type of variable, but the number itself. You can use a special built-in method `.is_integer()` on a float variable to check if a number is an integer.
 * Copy the messages carefully. The tests will check if the correct message appears in the correct order. Don't add extra lines or characters.
 ```
 msg_6 = " ... lazy"
