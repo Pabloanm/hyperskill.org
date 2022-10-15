@@ -3,7 +3,8 @@
 Study plan
 for Python for Beginners
 
-# Topics
+# Description
+
 * Overview of the basic program  
 
 * Multi-line programs  
