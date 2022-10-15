@@ -172,7 +172,7 @@ Do you want to continue calculations? (y / n):
 #### Description
 To complete the project, you need to implement the flowchart below. The old blocks are red-colored. Be careful; some flows can work differently. The functions from the previous stage have not been changed.
 
-![]([https://ucarecdn.com/b1770719-2eea-4389-b126-9fbd2edf8d96/](https://ucarecdn.com/5a9953cf-380a-4a12-a88b-bb45edd5e890/))
+![](https://ucarecdn.com/5a9953cf-380a-4a12-a88b-bb45edd5e890/)
 
 #### Objectives
 Implement the flowchart above. Please, follow our recommendations:
