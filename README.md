@@ -119,26 +119,28 @@ Do you want to continue calculations? (y / n):
 
 # Stage 4/5: The laziness test
 #### Description
-We will start by implementing the flowchart below. Copy the messages carefully and assign them to the program variables. It makes no difference whether you make a list or each message is a separate variable. The appropriate messages must be displayed according to the flowchart.
+Implement the flowchart below. Take a good look — there're two functions. The old blocks are in red. Be careful; some flows can now work differently.
 
-![](https://ucarecdn.com/b1770719-2eea-4389-b126-9fbd2edf8d96/)
+![](https://ucarecdn.com/0706cb45-ffba-4f2e-ab19-ab635467da58/)
+
+Functions:
+
+![](https://ucarecdn.com/74e59427-a12d-4d48-8c7c-29008d46503b/)
 
 #### Objectives
-Implement the flowchart above. Please, follow our recommendations:
+Implement the flowchart with two functions. Please, mind the recommendations below:
 
-* The variable `calc` should have the following format: `x operation y`. For 
-example: `2 + 3`, `2 + g` or `3.1 r 5`;
-* The variables `x` and `y` must be of the ``float`` or ``int`` type. The oper variable 
-  is a one-character string. Check whether the passed values have proper types. The delimiter must be a dot;
-* Don't use the built-in `eval()` function to calculate from a string;
-* Copy the messages below carefully. The tests will check if the correct 
-  message appears in the correct order. Please, do not add extra lines or characters.
+* Don't use the built-in functions to calculate from a string;
+* Notice that the function is_one_digit() is supposed to check whether it has an integer value in the mathematical sense, e.g. 3.0 is an integer, 3.1 is a non-integer number. Thus, do NOT check the type of variable, but the number itself. You can use a special built-in method .is_integer() on a float variable to check if a number is an integer.
+* Copy the messages carefully. The tests will check if the correct message appears in the correct order. Don't add extra lines or characters.
 ```
-msg_0 = "Enter an equation"
+msg_6 = " ... lazy"
 
-msg_1 = "Do you even know what numbers are? Stay focused!"
+msg_7 = " ... very lazy"
 
-msg_2 = "Yes ... an interesting math operation. You've slept through all classes, haven't you?"
+msg_8 = " ... very, very lazy"
+
+msg_9 = "You are"
 ```
 #### Example
 The greater-than symbol followed by a space (`>` ) represents the user input. Note that it's not part of the input.
@@ -146,14 +148,23 @@ The greater-than symbol followed by a space (`>` ) represents the user input. No
 #### Example 1:
 ```
 Enter an equation
-> 2 + m
-Do you even know what numbers are? Stay focused!
+> 2 / M
+You are ... lazy
+Yeah... division by zero. Smart move...
 Enter an equation
-> 3 n 3
-Yes ... an interesting math operation. You've slept through all classes, haven't you?
-Enter the equation
-> m - 2
-Do you know what the numbers are? Stay focused!
+> 1 * M
+You are ... lazy ... very lazy ... very, very lazy
+0.0
+Do you want to store the result? (y / n):
+> n
+Do you want to continue calculations? (y / n):
+> y
 Enter an equation
-> 4.7 * 5.2
+> 899 * 0
+You are ... very, very lazy
+0.0
+Do you want to store the result? (y / n):
+> n
+Do you want to continue calculations? (y / n):
+> n
 ```
