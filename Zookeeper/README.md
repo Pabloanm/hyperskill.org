@@ -87,7 +87,8 @@ You've reached the end of the program. To check another habitat, please restart 
 
 #### Example:
 The greater-than symbol followed by a space (`>`) represents the user input. Notice that it's not part of the input.
-Example 1
+
+#### Example 1
 ```
 Please enter the number of the habitat you would like to view: > 5
 
@@ -115,7 +116,7 @@ It looks like we will soon have more rabbits!
 ---
 You've reached the end of the program. To check another habitat, please restart the watcher.
 ```
-Example 2
+#### Example 2
 ```
 Please enter the number of the habitat you would like to view: > 4
 
