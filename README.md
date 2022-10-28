@@ -1,7 +1,8 @@
 # hyperskill.org
+JetBrains Academy
 
-Study plan
-for Python for Beginners
+# Study plan for Python
+knowledge review
 
 # Description
 
